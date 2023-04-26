@@ -587,6 +587,7 @@ function build_openssl {
 		RANLIB=$RANLIB $OPENSSL_CMD \
 		--prefix="$INSTALL_DIR" \
 		--openssldir="$INSTALL_DIR" \
+		--libdir="$INSTALL_DIR/lib"
 		no-asm \
 		no-hw \
 		no-engine \
